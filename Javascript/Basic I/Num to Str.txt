@@ -1,0 +1,8 @@
+function Rep(a){
+  for(var i=0;i<a.length;i++){
+  if(a[i]<0) a[i]="dojo";
+  }
+return a;
+}
+var a=[1,-5,2,-1,8,9];
+console.log("Swaped ", Rep(a));

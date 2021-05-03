@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("main").children("img.I1,img.I2,img.I3,img.I4,img.I5").hide();
+                $("main img").hover(function(){
+                    $(this).toggle();
+                    $(this).siblings().toggle();
+                })
+                });
+        </script>
+        <style>
+            .M1{
+                display: flex;
+            }
+            .img{
+                height: 100px;
+                width: 200px;
+            }
+        </style>
+</head>
+<body>
+    <div class="M1">
+        <main>
+            <img src="img/ninja0.png" >
+            <img src="img/cat0.png" class="I1">
+        </main>
+        <main>
+            <img src="img/ninja1.png" >   
+            <img src="img/cat1.png" class="I2" >
+        </main>
+        <main>
+            <img src="img/ninja2.png" >
+            <img src="img/cat2.png" class="I3">
+        </main>
+        <main>
+            <img src="img/ninja3.png" >
+            <img src="img/cat3.png" class="I4" > 
+        </main> 
+        <main>
+            <img src="img/ninja4.png" >
+            <img src="img/cat4.png"  class="I5"> 
+        </main>
+    </div>
+</body>
+</html>

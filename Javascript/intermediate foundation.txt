@@ -1,0 +1,90 @@
+1-----(Sigma)
+        function sigma(num){
+    var temp=num;
+        for(var i=0;i<temp;i++){
+        num +=i;
+    }
+    return num
+    }
+    var num=4;
+    console.log(sigma(num));
+
+2-----(Factorial)
+    	function factorial(num){
+        var temp=num;
+            for(var i=1;i<temp;i++){
+            num *=i;
+        }
+        return num
+        }
+        var num=5;
+        console.log(factorial(num));
+
+3----(Fibonaci)
+            function fibonaci(a,b,num){
+        var fibo=[a,b];
+        fibo.push(a+b);
+            for(var i=3;i<=num;i++){
+            fibo[i]=fibo[i-1]+fibo[i-2];
+        console.log(i,fibo[i])
+        fibo.push(fibo[i]);
+        
+            }
+        return fibo[fibo.length-1]
+        }
+        var a=0,b=1;
+        var num=7;
+        console.log("Fibonaci ("+num+")="+fibonaci(a,b,num));
+
+4----(Second to Last)
+
+            function StL(a){
+        var temp;
+        if(a.length>1) temp=a[a.length-1];
+        else temp=null;
+        return temp
+        }
+        var a=[1,2];
+        console.log(StL(a));
+
+5----(Nth to last)       
+        function NtL(n,a){
+        var temp;
+        if(a.length>a.length-n) temp=a[a.length-n];
+        else temp=null;
+        return temp
+        }
+        var n=3;
+        var a=[5,2,3,6,4,9,7];
+        console.log(NtL(n,a));
+        
+6---(Secound Largest)
+            function SeconLargest(a){
+        var max=a[0];
+        var smax;
+        for(var i=0;i<a.length;i++){
+        if(a[i]>max) {
+        smax =max;
+        max=a[i];
+        }
+        }
+        if(smax<a[a.length-1] && max!=a[a.length-1]) smax =a[a.length-1];
+        return smax
+        }
+        var a=[5,2,3,6,4,9,7,20,50,43];
+        console.log(SeconLargest(a));
+
+7----(Double Truble)
+        function DoubleTruble(a){
+    var anew=[];
+    for(var i=0;i<a.length;i++){
+    anew.push(a[i]);
+    anew.push(a[i]);
+    }
+    return anew
+    }
+    var a=[4, "Ulysses", 42, false] ;
+    console.log(DoubleTruble(a));
+    
+    
+        

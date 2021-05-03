@@ -1,0 +1,12 @@
+1--------var a=[6,3,5,1,2,4];
+	var num,sum=0;
+	for(var i=0;i<a.length;i++){
+ 	 num=a[i];
+ 	 sum+=a[i];
+  	console.log("Num",num," , ","Sum",sum);
+}
+2-------var a=[6,3,5,1,2,4];
+	for(var i=0;i<a.length;i++){
+ 	 a[i]*=i;
+	}
+	 console.log(a);

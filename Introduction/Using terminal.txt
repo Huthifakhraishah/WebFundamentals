@@ -1,0 +1,50 @@
+user@Huthifa MINGW64 ~/OneDrive/Desktop
+$ mkdir test
+
+user@Huthifa MINGW64 ~/OneDrive/desktop
+$ cd test
+
+user@Huthifa MINGW64 ~/OneDrive/desktop/test
+$ touch index.html style.css commands.txt
+
+user@Huthifa MINGW64 ~/OneDrive/desktop/test
+$ cp index.txt index_2.txt
+
+user@Huthifa MINGW64 ~/OneDrive/desktop/test
+$ cd ..
+
+user@Huthifa MINGW64 ~/OneDrive/desktop
+$ mkdir destenation
+
+user@Huthifa MINGW64 ~/OneDrive/desktop
+$ cd destenation
+
+user@Huthifa MINGW64 ~/OneDrive/desktop/destenation
+$ cd ..
+
+user@Huthifa MINGW64 ~/OneDrive/desktop
+$ mv index_2.txt ../destination
+
+
+user@Huthifa MINGW64 ~/OneDrive/Desktop
+$ cd test
+
+user@Huthifa MINGW64 ~/OneDrive/Desktop/test
+$ rm style.css
+
+user@Huthifa MINGW64 ~/OneDrive/Desktop/test
+$ ls
+commands.txt  index.html
+
+user@Huthifa MINGW64 ~/OneDrive/Desktop/test
+$ cd ..
+
+user@Huthifa MINGW64 ~/OneDrive/Desktop
+$ cd destenation
+
+user@Huthifa MINGW64 ~/OneDrive/Desktop/destenation
+$ ls
+index_2.html
+
+user@Huthifa MINGW64 ~/OneDrive/Desktop/destenation
+$ rm -rf destenation

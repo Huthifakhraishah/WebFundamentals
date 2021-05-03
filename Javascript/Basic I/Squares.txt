@@ -1,0 +1,9 @@
+function square(a){
+for(var i=0;i<a.length;i++){
+  a[i]*=a[i];
+}
+
+return a;
+}
+var a=[1,6,3,2,5,8,1,-1];
+console.log("Greater Than Y : ", square(a));

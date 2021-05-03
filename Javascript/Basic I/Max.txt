@@ -1,0 +1,10 @@
+function arraymax(a){
+var max=a[0];
+for(var i=0;i<a.length;i++){
+  if(a[i]>max) max=a[i];
+}
+return max;
+}
+var a=[1,5,2,1,8,9];
+var max=arraymax(a);
+console.log("Max : "+ max);

@@ -1,0 +1,10 @@
+function check(y,a){
+  var count=0;
+for(var i=0;i<a.length;i++){
+  if(y<a[i]) count++
+}
+
+return count;
+}
+var a=[1,6,3,2,5,8,1,-1];
+console.log("Greater Than Y : ", check(2,a));

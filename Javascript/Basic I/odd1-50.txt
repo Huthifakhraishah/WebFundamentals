@@ -1,0 +1,11 @@
+function arrayodd(a){
+var odd=[];
+for(var i=1;i<50;i+=2){
+  odd.push(i);
+}
+
+return odd;
+
+}
+var odd=arrayodd(a);
+console.log("Odd : ", odd);

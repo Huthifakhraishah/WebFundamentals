@@ -1,0 +1,168 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#container{
+    background-color: #f9f9f9;
+    min-height: 500px;
+    max-width: 1000px;
+    margin:2cm auto;
+
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+header > h1{
+    width: 400px;
+    /* outline: 1px solid black; */
+    margin: 0.5cm;
+    font-family: cursive;
+}
+header > p{
+    width: 600px;
+    /* outline: 1px solid rgb(48, 40, 40); */
+    margin: 0.7cm auto;
+    font-family: calibri;
+    margin-left: 7cm;
+    font-size: 25px;
+    font-weight: bold;
+    
+
+}
+#main{
+    background: linear-gradient(to right,#1f0f13 ,#6f5964,#1f0f13);
+    width: auto;
+    height: auto;
+    padding: 0.1cm;
+    margin: 0;
+    font-family: calibri;
+}
+.first-raw{
+    display: flex;
+    margin-top: .2cm;
+    justify-content: space-around;
+
+}
+.first-raw img{
+    object-fit: cover;
+    max-width:  400px;
+    height: 310px;
+    border: 5px solid silver ;
+    margin-left: 0.4cm;
+    margin-top: 0.4cm;
+
+}
+table{
+    width: 500px;
+    height: 300px;
+    margin-right: 0.4cm;
+    margin-top: 0.4cm;
+    
+}
+
+table thead tr th{
+    outline: 1px solid black;
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    width: fit-content;
+    text-align: left;
+    font-size: 25px;
+    padding: 0.1cm;
+    color:white;
+    margin-left: 0;
+
+}
+table tbody td {
+    background: linear-gradient(to right, white, #bdbdbf);
+    height: 270px;
+    width: auto;
+    padding: 0.1cm 0.3cm 0.1cm 0.3cm;
+}
+table tbody td a{
+    margin-bottom: .1cm;
+}
+
+.second-raw{
+    display: flex;
+    padding: 0.4cm;
+}   
+.col{
+    flex: 1;
+    height: auto;
+    max-width: 300px;
+    margin-top: .5cm;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+.col >img{
+    width: 300px;
+    max-height: auto;
+
+}
+.col >h2{
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    width: auto;
+    height:25px;
+    padding: 0.1cm;
+    color:white;
+}
+.col >p{
+    background: linear-gradient(to right, white, #bdbdbf);
+    width: fit-content;
+    height: auto;
+    text-align: center;
+    margin-top: -.1cm;
+    padding: 0.1cm;
+
+}
+.f8{
+    width: 300px;
+    text-align: center;
+    background: linear-gradient(to right, white, #bdbdbf);
+}
+
+.f8 >img{
+    max-width: 50px;
+    max-height: 50px;
+}
+.f8 >p{
+    background-color:lightgreen;
+    margin-left:100px;
+    max-width:100px;
+    border-radius: 5px;
+}
+footer{
+width: auto;
+margin-left:0px ;
+margin-right: 0px;
+font-family: calibri;
+
+}
+.iii{
+    width: 7cm;
+    margin-left: 400px;
+    font-size: large;
+    }
+.face{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.face img{
+    height: 30px;
+    width: 30px;
+    margin: .1cm;
+    
+    }
+.face p{
+    margin-top: 0.2cm;
+}
+p .font{
+    list-style-type: none;
+    font-size: large;
+}

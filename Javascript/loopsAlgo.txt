@@ -1,0 +1,11 @@
+1--------for(var j = 1; j < 20; j+=2){
+	console.log(j);
+   	}
+
+
+2--------var num=1,sum=0;
+	var a="Num:",b="Sum:";
+	for(var num = 1; num < 6; num++){
+	sum+=num;
+	console.log(a,num,",",b,sum);
+  	 }

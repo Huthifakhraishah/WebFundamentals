@@ -1,0 +1,11 @@
+function Arrayavg(a){
+var sum=0,avg=0;
+for(var i=0;i<a.length;i++){
+  sum+=a[i];
+}
+avg=(sum/a.length);
+return avg;
+}
+var a=[1,5,2,1,8,9];
+console.log(Arrayavg(a));
+

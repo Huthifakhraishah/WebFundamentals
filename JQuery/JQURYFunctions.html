@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            main >div{
+                text-align: center;
+            }
+            main{
+                width: 800px;
+            }
+        </style>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>paython</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#header1").click(function(){
+                    $("#header1").children("h1,p").toggle()});
+                $("#header2").click(function(){
+                    $("#header2").children("p").css('background-color', 'green')});
+                $("#header3").click(function(){
+                    $("#header3").children("p").hide('p')});
+                $("#header4").click(function(){
+                    $("#header4").children("p").show()});
+                $("#header5").click(function(){
+                    $("#header5").children("p").slideToggle('p')});
+                $("#header6").click(function(){
+                    $("#header6").children("h3").fadeOut('h3')});
+                $("#header7").click(function(){
+                    $("#header7").children("h1,p").fadeToggle("h3")});
+                $("#header8").click(function(){
+                    $("#header8").children("p").addClass('background-color', 'red')});
+                $("#header9").click(function(){
+                    $("#header9").children("p").before('hi')});
+                $("#header10").click(function(){
+                    $("#header10").children("p").after("hi")});
+                $("#header11").click(function(){
+                    $("#header11").children("p").html("<p>addednew</p>")});
+                $("#header12").click(function(){
+                    $("#header12").children("p").prepend('somthing new')});
+                $("#header13").click(function(){
+                    $("#header13").children("p").append("addednew")});
+                $("#header14").click(function(){
+                    $("#header14").children("p").text('somthing new')});    
+
+            });
+        </script>
+    </head>
+    <body>
+        <div id="contain">
+                <main>
+                    <div id=header1>
+                        <h1>Add click Toggle</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                    <div id=header2>
+                        <h1>Add click color green</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                    <div id=header3>
+                        <h1>Add clickhide</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                    <div id=header4>
+                        <h1>Add click show</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                    <div id=header5>
+                        <h1>Add click slideup AND Down</h1>
+                        <button>Click</button>
+                        <h3>Click the button to do Somthing </h3>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                    <div id=header6>
+                        <h1>Add click fadeout</h1>
+                        <button>Click</button>
+                        <h3>Click the button to do Somthing </h3>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                    <div id=header7>
+                        <h1>Add click fadeToggle</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                    <div id=header8>
+                        <h1>Add click add class</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                    <div id=header9>
+                        <h1>Add click before</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing</p>
+                    </div>
+                    <hr>
+                    <div id=header10>
+                        <h1>Add click after</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing</p>
+                    </div>
+                    <hr>
+                    <div id=header11>
+                        <h1>Add click html</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                    <div id=header12>
+                        <h1>Add click preappend</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                    <div id=header13>
+                        <h1>Add click append</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                    <div id=header14>
+                        <h1>Add click text</h1>
+                        <button>Click</button>
+                        <p>Click the button to do Somthing </p>
+                    </div>
+                    <hr>
+                </main>
+        </div>
+    </body>
+</html>

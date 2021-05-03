@@ -1,0 +1,10 @@
+function swap(a){
+  if(a.length>=2){
+var temp=a[0];
+a[0]=a[a.length-1];
+a[a.length-1]=temp;
+}
+return a;
+}
+var a=[1,5,2,1,8,9];
+console.log("Swaped ", swap(a));

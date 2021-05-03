@@ -1,0 +1,15 @@
+
+.center-box {
+    background-color: rgb(226, 43, 43);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 300px;
+    width: 600px;
+    
+}
+.center-item {
+    background-color: burlywood;
+    width: 100px; 
+    height: 100px;
+}
